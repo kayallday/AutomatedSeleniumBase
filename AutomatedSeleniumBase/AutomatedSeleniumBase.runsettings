@@ -3,7 +3,7 @@
   <!-- Parameters used by tests at runtime -->  
   <TestRunParameters>
     <!-- REPLACE THE APPLICATIONBASEURL BEFORE EVERYTHING!!!!!!!!!!!!-->
-    <Parameter name="ApplicationBaseUrl" value="http://twitter.com"/>
+    <Parameter name="ApplicationBaseUrl" value=""/>
     <Parameter name ="BrowserName" value="Chrome"/>
     <Parameter name="VendorDirectory" value="\Vendor"/>
   </TestRunParameters>  

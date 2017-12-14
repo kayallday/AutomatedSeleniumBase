@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Aptera.Automated.Testing.Base</id>
+    <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
     <authors>$author$</authors>
@@ -43,6 +43,13 @@
   </metadata>
   <files>
     <file src="README.md" target="" />
+    <file src="Features\**" target="" />
+    <file src="PageObjects\**" target="" />
+    <file src="StepDefinitions\**" target="" />
+    <file src="AutomatedSeleniumBase.runsettings" target="" />
+    <file src="AutomatedSeleniumBaseContext.cs" target="" />
+    <file src="AutomatedSeleniumBaseContext.cs" target="" />
+    <file src="packages.config" target="" />
   </files>
   <packageTypes>
     <packageType name="Dependency"/>
