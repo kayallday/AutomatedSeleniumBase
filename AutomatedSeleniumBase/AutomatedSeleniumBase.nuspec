@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>Aptera.Automated.Testing.Base</id>
     <version>$version$</version>
     <title>$title$</title>
     <authors>$author$</authors>
@@ -15,4 +15,7 @@
     <copyright>Copyright 2017</copyright>
     <tags>Tag1 Tag2</tags>
   </metadata>
+  <packageTypes>
+    <packageType name="Dependency"/>
+  </packageTypes>
 </package>
