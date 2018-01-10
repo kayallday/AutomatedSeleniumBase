@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AutomatedSeleniumBase</id>
+    <version>1.1.0</version>
+    <authors>Kelsey Beard, Dan Sullivan</authors>
+    <owners>kbeard</owners>
+    <licenseUrl>https://github.com/kmbeard/AutomatedSeleniumBase/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/kmbeard/AutomatedSeleniumBase</projectUrl>
+    <iconUrl>https://www.dropbox.com/s/d7gyoadjaomgoop/a%20cog.png?dl=0</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NuGet package that sets up folder structure, Base Page Object, and Base Steps to hit the ground running with Selenium WebDriver in Visual Studio .NET Development</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Tag1 Tag2</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+      <dependency id="Aptera.Automation.De.Sullivan" version="1.1.1" />
+      <dependency id="Microsoft.NETCore.Platforms" version="2.0.1" />
+      <dependency id="NETStandard.Library" version="2.0.1" />
+      <dependency id="Newtonsoft.Json" version="10.0.3" />
+      <dependency id="NUnit" version="3.9.0" />
+      <dependency id="NUnit.Console" version="3.7.0" />
+      <dependency id="NUnit.ConsoleRunner" version="3.7.0" />
+      <dependency id="NUnit.Extension.NUnitProjectLoader" version="3.6.0" />
+      <dependency id="NUnit.Extension.NUnitV2Driver" version="3.7.0" />
+      <dependency id="NUnit.Extension.NUnitV2ResultWriter" version="3.6.0" />
+      <dependency id="NUnit.Extension.TeamCityEventListener" version="1.0.2" />
+      <dependency id="NUnit.Extension.VSProjectLoader" version="3.7.0" />
+      <dependency id="NUnit.Runners" version="3.7.0" />
+      <dependency id="NUnit3TestAdapter" version="3.9.0" />
+      <dependency id="Selenium.Chrome.WebDriver" version="2.33" />
+      <dependency id="Selenium.Firefox.WebDriver" version="0.19.1" />
+      <dependency id="Selenium.PhantomJS.WebDriver" version="2.1.1" />
+      <dependency id="Selenium.Support" version="3.8.0" />
+      <dependency id="Selenium.WebDriver" version="3.8.0" />
+      <dependency id="Selenium.WebDriver.GeckoDriver.Win64" version="0.19.1" />
+      <dependency id="Selenium.WebDriverBackedSelenium" version="3.8.0" />
+      <dependency id="SpecFlow" version="2.2.1" />
+      <dependency id="SpecFlow.MsTest" version="2.2.1" />
+      <dependency id="SpecFlow.NUnit" version="2.2.1" />
+      <dependency id="SpecFlow.NUnit.Runners" version="2.2.1" /> 
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="README.md" target="" />
+    <file src="Features\**" target="" />
+    <file src="PageObjects\**" target="" />
+    <file src="StepDefinitions\**" target="" />
+    <file src="AutomatedSeleniumBase.runsettings" target="" />
+    <file src="AutomatedBaseContext.cs" target="" />
+    <file src="" target="" />
+    <file src="" target="" />
+    <file src="" target="" />
+    <file src="" target="" />
+    <file src="" target="" />
+    <file src="" target="" />
+    <file src="" target="" />
+    <file src="" target="" />
+    <file src="" target="" />
+  </files>
+</package>
